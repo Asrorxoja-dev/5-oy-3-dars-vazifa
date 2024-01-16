@@ -1,0 +1,22 @@
+#card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: solid 1px rgb(200, 196, 196);
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px; 
+}
+.hidden{
+    display: none !important;
+}
+
+#card {
+    display: flex;
+     align-items: center; 
+     justify-content: space-between;
+      border: solid 1px rgb(200, 196, 196);
+       border-radius: 10px; 
+       padding-left: 50px;
+        padding-right: 50px; 
+}
