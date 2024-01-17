@@ -14,10 +14,13 @@ const button = document.querySelectorAll('#btn')
 // });
 
 button.forEach((item) => {
-confirm('bu element ochirilsinmi');
     item.addEventListener('click', (e) => {
-        buttonParent = e.target.parentElement.parentElement
-        buttonParent.classList.add("hidden")
+ let isdelete = confirm('bu element ochirilsinmi');
+if(isdelete){
+    buttonParent = e.target.parentElement.parentElement
+    buttonParent.classList.add("hidden")
+}
+        
         
     })
 })
